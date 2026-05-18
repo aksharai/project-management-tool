@@ -27,7 +27,6 @@ src/
 - index.css
 
 public/
-- index.html
 - package.json
 
 ## How to Run
