@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f4f4;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #1e293b;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  padding: 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sidebar ul li:hover {
+  background: #334155;
+}
+
+/* Main */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 120px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Input */
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input input,
+.task-input select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.task-input button {
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Kanban */
+.kanban {
+  display: flex;
+  gap: 15px;
+}
+
+.column {
+  flex: 1;
+  background: #e2e8f0;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 300px;
+}
+
+.task {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.move-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Comments */
+.comments {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.comment-box {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.comment-box input {
+  flex: 1;
+  padding: 5px;
+}
