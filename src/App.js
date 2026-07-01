@@ -33,7 +33,7 @@ function App() {
   });
 
   const [taskName, setTaskName] = useState("");
-  const [assignedTo, setAssignedTo] = useState("Alex");
+  const [assignedTo, setAssignedTo] = useState("Aksha");
   const [commentInput, setCommentInput] = useState({});
 
   // Save to localStorage
