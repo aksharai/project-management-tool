@@ -11,7 +11,7 @@ function App() {
           {
             id: 1,
             name: "Design Dashboard UI",
-            assignedTo: "Alex",
+            assignedTo: "Aksha",
             status: "Todo",
             comments: ["Initial wireframe done"]
           },
@@ -196,7 +196,7 @@ function App() {
             value={assignedTo}
             onChange={(e) => setAssignedTo(e.target.value)}
           >
-            <option>Alex</option>
+            <option>Aksha</option>
             <option>John</option>
             <option>Sarah</option>
           </select>
