@@ -154,12 +154,6 @@ function App() {
       {/* Sidebar */}
       <div className="sidebar">
         <h2>PMT</h2>
-        <ul>
-          <li>Dashboard</li>
-          <li>Tasks</li>
-          <li>Analytics</li>
-          <li>Settings</li>
-        </ul>
       </div>
 
       {/* Main */}
